@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="inputstyle.css">
+    <link rel="stylesheet" href="phone.css">
+    <link rel="stylesheet" href="tablet.css">
+
+</head>
+
+
+<body>
+
+    <div id="tabletheader"></div>
+
+    <div id="main-container">
+        <div id="img-container">
+            
+        </div>
+        
+        <div id="form-container">
+            
+            <div id="logo-container"><h1>Create your Account</h1></div>
+
+            <form method="post" id="sign-up-form">
+                    <h1 id="h1phone">Create Your Account</h1>
+                <p>
+                    <label for="firstnameinput">First Name:</label>
+                    <input type="text" name="firstnameinput" id="firstnameinput" placeholder="ex: John" required pattern="^[A-Za-z]{2,15}$" class="inputnormal">
+                    
+                    <label for="lastnameinput">Last Name:</label>
+                    <input type="text" name="lastnameinput" id="lastnameinput" placeholder="ex: Doe" required pattern="^[A-Za-z]{2,15}$" class="inputnormal">
+                </p>
+                
+                <p>
+                    <label for="emailinput">Email:</label>
+                    <input type="email" name="emailinput" id="emailinput" placeholder="ex: email@domain.com" required pattern="^([A-Za-z0-9çáÁÇéÉíÍóÓÚú!]{2,})@([a-z]{3,15}.[a-z]{2,5})$" class="inputnormal">
+                </p>
+                <p id="password-container">
+                    <label for="passwordinput">Password: </label><input type="password" name="passwordinput" id="passwordinput" class="inputnormal" placeholder="ex: PizzaIsCool219!_1" required pattern='^.{6,30}$'>
+
+                    <input type="date" name="inputdate" id="inputdate" required>
+
+                </p>
+                
+                <div id="checkbox-container">
+                    <input type="checkbox" id="notifications"> <span>Lorem ipsum dolor sit amet, consectetur.</span> <br>
+                    <input type="checkbox" id="iagree" required> <span>it amet, consectetur adipiscing</span>
+                    <button id="subtmitbottom">Sign Up</button>
+                </div>
+
+
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
