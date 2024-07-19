@@ -11,17 +11,20 @@ This project runs on desktop, phone and tablet. Check the images below:
 
 <h2>Desktop</h2>
 
--- ![desktop](https://github.com/user-attachments/assets/6e753018-7881-4e4c-a318-1614ee7cac88)
+-- ![desktop (1)](https://github.com/user-attachments/assets/164e6f26-b374-4a7c-a7a4-5f739d6d1b8b)
+
 
 <h2>Phone</h2>
 
--- ![iPhone-13-PRO-127 0 0 1](https://github.com/user-attachments/assets/7e94c5ea-4cb7-465b-81bf-46bc43242791)
+-- ![iPhone-13-PRO-127 0 0 1 (1)](https://github.com/user-attachments/assets/91a2940e-c715-4b7b-b3b2-32c10a431646)
+
 
 <h2>Tablet</h2>
 
--- ![iPad-Air-4-127 0 0 1](https://github.com/user-attachments/assets/319b0328-08bb-4612-91d9-05ba00e01e86)
+-- ![iPad-Air-4-127 0 0 1 (1)](https://github.com/user-attachments/assets/54ded5e6-ea10-4048-bf55-2592dfc015d5)
 
-<h1>Installation and Usage</h1>
+
+<h3>Installation and Usage</h3>
 
 1. Clone the repository:
     ```sh
@@ -31,13 +34,11 @@ This project runs on desktop, phone and tablet. Check the images below:
 
 ---
 
-<h1>Technologies Used</h1>
+<h4>Technologies Used</h4>
 
 - HTML
 - CSS
 - JavaScript
-
-![htmlo (1)](https://github.com/user-attachments/assets/4dad1fb2-a7a2-4e50-949d-2c2ba7c4e562)![css (1)](https://github.com/user-attachments/assets/b0406f12-7729-4d55-ba67-8880e25882b3)![javascript-js-icon-256x256-2o2kq55k (1)](https://github.com/user-attachments/assets/fa4b9071-3de2-4199-b64a-714142fc8d88)
 
 
 
