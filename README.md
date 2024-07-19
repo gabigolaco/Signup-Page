@@ -37,7 +37,7 @@ This project runs on desktop, phone and tablet. Check the images below:
 - CSS
 - JavaScript
 
-![htmlo](https://github.com/user-attachments/assets/8e37c289-a7fa-4ee4-8a7f-52cfd007ab33)![css](https://github.com/user-attachments/assets/5f9249d4-96f1-41ac-9b49-cb656d8a215a)![javascript-js-icon-256x256-2o2kq55k](https://github.com/user-attachments/assets/62e6021a-20fd-494d-93b4-617f88ac4a5d)
+![htmlo (1)](https://github.com/user-attachments/assets/4dad1fb2-a7a2-4e50-949d-2c2ba7c4e562)![css (1)](https://github.com/user-attachments/assets/b0406f12-7729-4d55-ba67-8880e25882b3)![javascript-js-icon-256x256-2o2kq55k (1)](https://github.com/user-attachments/assets/fa4b9071-3de2-4199-b64a-714142fc8d88)
 
 
 
