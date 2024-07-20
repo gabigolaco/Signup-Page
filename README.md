@@ -18,7 +18,7 @@ Once you signup, your data is stored in cookies.
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/signup-page.git
+    git clone https://github.com/GaabsPlaays/Signup-Page.git
     ```
 2. Open `index.html` in your browser to view the project.
 
