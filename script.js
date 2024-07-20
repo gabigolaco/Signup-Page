@@ -18,11 +18,11 @@ function checkInputs() { // A cada input que o cara digitar, vai acionar essa a�
 
     todosOsInputs.forEach(input => {
         if (!input.validity.valid) {
-            input.style.border = '1px solid red'; // Aplica borda vermelha para inputs inválidos
-            allValid = false; // Define allValid como false se qualquer input não for válido
+            input.style.border = '1px solid red'; 
+            allValid = false;
             console.log('Input Inválido');
         } else {
-            input.style.border = '1px solid green'; // Aplica borda verde para inputs válidos
+            input.style.border = '1px solid green';
             console.log('Input Válido');
         }
     });
@@ -34,13 +34,13 @@ function checaridade() {
     let idade = dataAtual.getFullYear() - dataSelecionada.getFullYear();
 
     if (idade >= 18) {
-        inputdate.style.border = '1px solid green'; // Aplica borda verde para idade válida
+        inputdate.style.border = '1px solid green'; 
         console.log('Maior de idade');
-        idadevalida = true; // Define idadevalida como true se a idade for válida
+        idadevalida = true; 
     } else {
-        inputdate.style.border = '1px solid red'; // Aplica borda vermelha para idade inválida
+        inputdate.style.border = '1px solid red'; 
         console.log('Menor de idade');
-        idadevalida = false; // Define idadevalida como false se a idade não for válida
+        idadevalida = false;
     }
 }
 
