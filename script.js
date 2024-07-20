@@ -44,6 +44,17 @@ function checaridade() {
     }
 }
 
+const chave = 'Lx$8pQ!nB#vR7Yw0%aZk9Jm4xF6t3';
+
+function xor(texto, chave) {
+    let resultado = '';
+    const key = CryptoJS.enc.Utf8.parse(chave); // Convert chave to WordArray
+    for (let i = 0; i < texto.length; i++) {
+        let byte = texto.charCodeAt(i);
+        resultado += String.fromCharCode(byte ^ chave.charCodeAt(i % chave.length));
+    }   
+    return CryptoJS.enc.Base64.stringify(CryptoJS.enc.Utf8.parse(resultado)); // Encode result
+}
 
 function registrar(event) {
     
@@ -52,7 +63,7 @@ function registrar(event) {
 
     if (!allValid || !idadevalida) {
         console.log('Formulário não Enviado');
-        alert('Formulário Enviado');
+        alert('Formulário não enviado');
         event.preventDefault(); // Impede o envio do formulário se qualquer verificação falhar
     } else {
 
@@ -60,7 +71,7 @@ function registrar(event) {
         let dataSelecionada = new Date(inputdate.value);
         let idade = dataAtual.getFullYear() - dataSelecionada.getFullYear();
         console.log('Formulário Enviado');
-        alert('Formulário Enviado');
+        alert('Formulário enviado');
 
 
         localStorage.setItem('firstname', firstnameinput.value)
@@ -69,10 +80,10 @@ function registrar(event) {
         localStorage.setItem('password', passwordinput.value)
         localStorage.setItem('age', idade)
 
-        document.cookie = `name=${firstnameinput.value}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
-        document.cookie = `lastname=${lastnameinput.value}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
-        document.cookie = `email=${encodeURIComponent(emailinput.value)}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
-        document.cookie = `password=${encodeURIComponent(passwordinput.value)}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
+        document.cookie = `name=${encodeURIComponent(xor(firstnameinput.value))}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
+        document.cookie = `lastname=${encodeURIComponent(xor(lastnameinput.value))}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
+        document.cookie = `email=${encodeURIComponent(xor(emailinput.value))}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
+        document.cookie = `password=${encodeURIComponent(xor(passwordinput.value))}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
         document.cookie = `age=${idade}; expires=Fri, 31 Dec 2024 23:59:59 GMT; path=/; Secure; HttpOnly`
     }
 }
