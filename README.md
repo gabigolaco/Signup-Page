@@ -10,6 +10,7 @@ Once you signup, your data is stored in cookies.
 - **Pattern-based Signup**: Ensures first/last names don't contain signs, passwords are ok/strong, and users must be 18+ years old.
 - **Responsive Design**: Works on desktop, phone, and tablet.
 - **Data Storage**: Stores signup data in cookies.
+- **Cryptography:** Encrypted data using Crypto JS and Xor.
 
 ---
 
