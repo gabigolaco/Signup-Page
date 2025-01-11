@@ -1,6 +1,6 @@
 <h1>📝 Introduction</h1>
 
-This is a Signup page where you have to follow a pattern to signup. You can't use signs in your first/last name, need to have an Ok/Strong password and you must be +18 years old.
+This is a Signup page where you have to follow a pattern to signup. You can't use signs in your first/last name, need to have an Ok/Strong password and you must be +18 years old
 Once you signup, your data is stored in cookies.
 
 ![desktop (1)](https://github.com/user-attachments/assets/164e6f26-b374-4a7c-a7a4-5f739d6d1b8b)
